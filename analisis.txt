@@ -1,0 +1,30 @@
+Problema: Calcular el Factorial de un Número
+
+El factorial es el producto de los enteros no negativos desde 1 hasta n:
+n! = 1 x 2 x 3 x ... x n
+
+Entrada(s): 
+- Un número entero no negativo ingresado por el usuario
+- Variable de entrada: n (de tipo entero)
+
+Salida(s):
+- Un número que represente el factorial del número ingresado por el usuario.
+- Variable de salida: f (de tipo flotante) -> El factorial de un número puede tomar un valor muy grande. 
+
+Otras variables:
+- El iterador utilizado en el ciclo.
+
+Proceso(s):
+- Se debe solicitar el número (colocar un input)
+- Inicializar una variable donde se guardará el resultado
+- Inicializar un contador para incrementar el producto en cada iteración
+- Iterar desde un valor inicial 1 hasta llegar al valor ingresado por el usuario. En este caso, como sé que el número de repeticiones está definido previamente (1 hasta n), utilizaré un ciclo For
+- En cada iteración, multiplicar y guardar el resultado
+- Finalmente, se muestra el valor obtenido
+
+Restricciones: 
+- Aplica para números enteros no negativos -> Se debe validar el signo
+- La validación se puede hacer con un condicional que verifique que el valor ingresado es un número entero positivo. De lo contrario, indicarle al usuario para que intente nuevamente o finalizar el programa. Como esto no se indica, se procederá a indicar el error y finalizar. 
+- El factorial de 0 es 1. 
+
+

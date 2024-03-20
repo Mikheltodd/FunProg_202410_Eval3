@@ -1,0 +1,56 @@
+Prueba 1:
+
+Iniciar calcular_factorial
+n, f, i
+Si el usuario ingresa 0:
+n = 0
+Como NO es menor que 0:
+f = 1
+No se ejecuta el ciclo.
+
+El factorial de 0 es 1
+
+
+Prueba 2:
+
+Iniciar calcular_factorial
+n, f, i
+Si el usuario ingresa 4:
+n = 4
+Como n NO es menor que 0:
+f = 1
+
+Se ejecuta el ciclo:
+Iteración #1:
+i = 1
+f = 1 * 1 = 1
+
+Iteración #2:
+i = 2
+f = 1 * 2 = 2
+
+Iteración #3:
+i = 3
+f = 2 * 3 = 6
+
+Iteración #4:
+i = 4
+f = 6 * 4 = 24
+Termina el ciclo
+
+El factorial de 4 es 24
+
+
+Prueba 3: 
+Iniciar calcular_factorial
+n, f, i
+Si el usuario ingresa -10:
+n = -10
+Como es menor que 0:
+El número ingresado es un número negativo.
+
+
+Pregunta:
+
+"¿Cuál es el factorial de 25?"
+Respuesta: 15511210043330985984000000

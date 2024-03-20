@@ -1,0 +1,27 @@
+Program calcular_factorial
+// Programa para calcular el factorial de un número entero no negativo.
+// El factorial se calcular multiplicando los números consecutivos desde el 1 hasta el valor n.
+Start
+	// Declaración de variables
+	Declare Integer n // Representa el valor ingresado por el usuario
+	Declare Real f // Representa el resultado/factorial
+	Declare Integer i // Representa el iterador
+	
+	Display "Programa para el cálculo del factorial"
+	Display "Ingrese un valor entero no negativo: "
+	Input n
+	
+	If n < 0 Then
+		Display "El número ingresado es un número negativo."
+	Else
+		// Defino el resultado por defecto
+		Set f = 1
+
+		For i = 1 To n
+			f = f * i	
+		End For
+		
+		// Se muestra el resultado
+		Display "El factorial de ", n, " es", f
+	End If	
+End
